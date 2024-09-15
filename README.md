@@ -2,7 +2,6 @@
 
 ![react-native-image-reflect-shadow default layout](https://i.ibb.co/F3gc2x4/Screenshot-2024-09-15-at-11-21-07-PM-removebg-preview.png)
 ![react-native-image-reflect-shadow layout with overlay text](https://i.ibb.co/3sr0n50/Screenshot-2024-09-15-at-11-33-31-PM-removebg-preview.png)
-Reflection shadow for images on react native
 
 ## Installation
 
