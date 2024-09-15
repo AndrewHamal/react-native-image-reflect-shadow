@@ -45,6 +45,7 @@ const ImageBlurShadowExpo = (props: IImageBlurShadow) => {
     shadowOffset = 70,
     resizeMode = 'cover',
     rounded = 30,
+    shadowBackgroundColor = "#fff",
     overlayContainer,
   } = props;
 
@@ -93,10 +94,10 @@ const ImageBlurShadowExpo = (props: IImageBlurShadow) => {
           end={{ x: 0, y: 0 }}
           style={[StyleSheet.absoluteFill, { height: 70, zIndex: 13 }]}
           colors={[
-            hexToRgbA(props?.shadowBackgroundColor, 0),
-            hexToRgbA(props?.shadowBackgroundColor, 0.3),
-            hexToRgbA(props?.shadowBackgroundColor, 0.6),
-            hexToRgbA(props?.shadowBackgroundColor, 1),
+            hexToRgbA(shadowBackgroundColor, 0),
+            hexToRgbA(shadowBackgroundColor, 0.3),
+            hexToRgbA(shadowBackgroundColor, 0.6),
+            hexToRgbA(shadowBackgroundColor, 1),
           ]}
         />
 
@@ -112,12 +113,12 @@ const ImageBlurShadowExpo = (props: IImageBlurShadow) => {
             zIndex: 13,
           }}
           colors={[
-            hexToRgbA(props?.shadowBackgroundColor, 0),
-            hexToRgbA(props?.shadowBackgroundColor, 0.2),
-            hexToRgbA(props?.shadowBackgroundColor, 0.4),
-            hexToRgbA(props?.shadowBackgroundColor, 0.5),
-            hexToRgbA(props?.shadowBackgroundColor, 0.8),
-            hexToRgbA(props?.shadowBackgroundColor, 1),
+            hexToRgbA(shadowBackgroundColor, 0),
+            hexToRgbA(shadowBackgroundColor, 0.2),
+            hexToRgbA(shadowBackgroundColor, 0.4),
+            hexToRgbA(shadowBackgroundColor, 0.5),
+            hexToRgbA(shadowBackgroundColor, 0.8),
+            hexToRgbA(shadowBackgroundColor, 1),
           ]}
         />
 
@@ -126,12 +127,12 @@ const ImageBlurShadowExpo = (props: IImageBlurShadow) => {
           end={{ x: 1, y: 0 }}
           style={[StyleSheet.absoluteFill, { width: 70, zIndex: 13 }]}
           colors={[
-            hexToRgbA(props?.shadowBackgroundColor, 1),
-            hexToRgbA(props?.shadowBackgroundColor, 0.8),
-            hexToRgbA(props?.shadowBackgroundColor, 0.5),
-            hexToRgbA(props?.shadowBackgroundColor, 0.4),
-            hexToRgbA(props?.shadowBackgroundColor, 0.2),
-            hexToRgbA(props?.shadowBackgroundColor, 0),
+            hexToRgbA(shadowBackgroundColor, 1),
+            hexToRgbA(shadowBackgroundColor, 0.8),
+            hexToRgbA(shadowBackgroundColor, 0.5),
+            hexToRgbA(shadowBackgroundColor, 0.4),
+            hexToRgbA(shadowBackgroundColor, 0.2),
+            hexToRgbA(shadowBackgroundColor, 0),
           ]}
         />
 
@@ -145,14 +146,14 @@ const ImageBlurShadowExpo = (props: IImageBlurShadow) => {
             zIndex: 11,
           }}
           colors={[
-            hexToRgbA(props?.shadowBackgroundColor, 0),
-            hexToRgbA(props?.shadowBackgroundColor, 0.2),
-            hexToRgbA(props?.shadowBackgroundColor, 0.3),
-            hexToRgbA(props?.shadowBackgroundColor, 0.4),
-            hexToRgbA(props?.shadowBackgroundColor, 0.6),
-            hexToRgbA(props?.shadowBackgroundColor, 0.8),
-            hexToRgbA(props?.shadowBackgroundColor, 0.9),
-            hexToRgbA(props?.shadowBackgroundColor, 1),
+            hexToRgbA(shadowBackgroundColor, 0),
+            hexToRgbA(shadowBackgroundColor, 0.2),
+            hexToRgbA(shadowBackgroundColor, 0.3),
+            hexToRgbA(shadowBackgroundColor, 0.4),
+            hexToRgbA(shadowBackgroundColor, 0.6),
+            hexToRgbA(shadowBackgroundColor, 0.8),
+            hexToRgbA(shadowBackgroundColor, 0.9),
+            hexToRgbA(shadowBackgroundColor, 1),
           ]}
         />
       </View>
