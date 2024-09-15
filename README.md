@@ -108,6 +108,6 @@ MIT
 ---
 
 ## Contact
-[linkedin](www.linkedin.com/in/anis-hamal-72ba8527a)
+[linkedin](https://www.linkedin.com/in/anis-hamal-72ba8527a)
 
 [portfolio website](https://anis-hamal.netlify.app/)
