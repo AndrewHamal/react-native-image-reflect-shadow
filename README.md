@@ -57,7 +57,7 @@ pod install
 ```
 
 ## Check example
-Github example[linkedin](https://github.com/AndrewHamal/react-native-image-reflect-shadow/tree/main/example)
+Github example [github](https://github.com/AndrewHamal/react-native-image-reflect-shadow/tree/main/example)
 
 ## Usage
 
