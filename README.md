@@ -6,13 +6,13 @@
 ## Installation
 
 ```bash
-npm install react-native-image-reflect-shadow
+npm install react-native-image-reflect
 ```
 
 ## Or
 
 ```bash
-yarn add react-native-image-reflect-shadow
+yarn add react-native-image-reflect
 ```
 
 ## For Expo
@@ -66,6 +66,7 @@ Github example [github](https://github.com/AndrewHamal/react-native-image-reflec
 ```js for Expo
 import { ImageBlurShadowExpo } from 'react-native-image-reflect-shadow';
 
+//shadowBackgroundColor should always be container background color
 <ImageBlurShadowExpo
   source={{ uri: 'https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
   shadowBackgroundColor={'#fff'}
@@ -75,12 +76,26 @@ import { ImageBlurShadowExpo } from 'react-native-image-reflect-shadow';
 ```js for CLI
 import { ImageBlurShadow } from 'react-native-image-reflect-shadow';
 
+//shadowBackgroundColor should always be container background color
 <ImageBlurShadow
   source={{ uri: 'https://images.unsplash.com/photo-1591154669695-5f2a8d20c089?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' }}
   shadowBackgroundColor={'#fff'}
 />
 
 ```
+
+# Props
+
+| Property             |  Type     | Default | Description                                  |
+| -------------------- | :-----:   | :-----: | -------------------------------------------- |
+| source               | string    |  `null` | set the image source                         |
+| width                | number    |  default| set image width                              |
+| height               | number    |  default| set image height                             |
+| rounded              | number    |  0      | set image border radius                      |
+| shadowOffset         | number    |  38     | set/override shadow offset                   |
+| shadowBackgroundColor| HexColor  |`#ffffff`| set/override shadow background color         |
+| overlayContainer     | component | `null`  | add text overlay on image                    |
+
 
 ## Contributing
 
@@ -92,6 +107,7 @@ MIT
 
 ---
 
-Contact developer [linkedin](www.linkedin.com/in/anis-hamal-72ba8527a)
+## Contact
+[linkedin](www.linkedin.com/in/anis-hamal-72ba8527a)
 
-Check developer Portfolio [anis-hamal](https://anis-hamal.netlify.app/)
+[portfolio website](https://anis-hamal.netlify.app/)

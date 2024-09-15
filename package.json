@@ -1,6 +1,6 @@
 {
-  "name": "react-native-image-reflect-shadow",
-  "version": "0.1.2",
+  "name": "react-native-image-reflect",
+  "version": "0.1.1",
   "description": "Reflection shadow for images on react native CLI/Expo with FastImage or expo-image",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
