@@ -1,7 +1,7 @@
 {
-  "name": "react-native-fast-image-reflect-shadow",
-  "version": "0.1.0",
-  "description": "Reflection shadow for images on react native",
+  "name": "react-native-image-reflect-shadow",
+  "version": "0.1.2",
+  "description": "Reflection shadow for images on react native CLI/Expo with FastImage or expo-image",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/AndrewHamal/react-native-fast-image-reflect-shadow.git",
-  "author": "AndrewHamal <73131641+AndrewHamal@users.noreply.github.com> (https://anis-hamal.netlify.app/)",
+  "repository": "https://github.com/AndrewHamal/react-native-image-reflect-shadow.git",
+  "author": "AnisHamal (https://anis-hamal.netlify.app/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AndrewHamal/react-native-fast-image-reflect-shadow.git/issues"
+    "url": "https://github.com/AndrewHamal/react-native-image-reflect-shadow.git/issues"
   },
-  "homepage": "https://github.com/AndrewHamal/react-native-fast-image-reflect-shadow.git#readme",
+  "homepage": "https://github.com/AndrewHamal/react-native-image-reflect-shadow.git#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -155,5 +155,14 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "@react-native-community/blur": "^4.4.1",
+    "expo": "^51.0.32",
+    "expo-blur": "~13.0.2",
+    "expo-image": "^1.12.15",
+    "expo-linear-gradient": "^13.0.2",
+    "react-native-fast-image": "^8.6.3",
+    "react-native-linear-gradient": "^2.8.3"
   }
 }

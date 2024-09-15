@@ -1,3 +1,4 @@
-export function multiply(a: number, b: number): Promise<number> {
-  return Promise.resolve(a * b);
-}
+import ImageBlurShadow from './components/ImageBlurShadow';
+import ImageBlurShadowExpo from './components/ImageBlurShadowExpo';
+
+export { ImageBlurShadow, ImageBlurShadowExpo };
