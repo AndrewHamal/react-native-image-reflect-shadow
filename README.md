@@ -26,7 +26,7 @@ npx expo install expo-image
 npx expo install expo-linear-gradient
 ```
 
-## For CLI with npm
+## For React native CLI with npm
 ```bash
 npm install react-native-blur
 ```
@@ -37,7 +37,7 @@ npm install react-native-linear-gradient
 npm install FastImage
 ```
 
-## For CLI with yarn
+## For React native CLI with yarn
 ```bash
 yarn install react-native-blur
 ```
@@ -47,6 +47,8 @@ yarn install react-native-linear-gradient
 ```bash
 yarn install FastImage
 ```
+
+## For React native CLI *ios only
 
 ```bash
 cd ios
